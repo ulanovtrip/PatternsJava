@@ -1,5 +1,6 @@
 package factory.factorymethod;
 
+//конкретный создатель
 public class NYPizzaStore extends PizzaStore {
     @Override
     protected Pizza createPizza(String type) {

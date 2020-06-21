@@ -1,6 +1,6 @@
-package factory.factorymethod;
+package factory.abstractfactory;
 
-public abstract class PizzaStore {
+public abstract class PizzaStoreForAbstract {
 
     public Pizza orderPizza(String type) {
         Pizza pizza;
